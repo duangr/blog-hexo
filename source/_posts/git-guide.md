@@ -1,5 +1,7 @@
 ----
 title: git guide
+tags:
+- git
 ----
 
 ## 配置

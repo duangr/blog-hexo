@@ -20,6 +20,7 @@ svn update (up) -r m PATH
 
 * 添加
 svn add file
+svn status |awk '{if($1 == "?"){print $2}}'|xargs svn add
 
 * 删除
 svn delete (del,remove,rm) PATH
